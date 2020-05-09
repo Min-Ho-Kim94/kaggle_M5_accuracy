@@ -131,7 +131,7 @@ get_binCI <- function(x,n) as.list(setNames(binom.test(x,n)$conf.int, c("lwr", "
 ## Load data
 
 ```{r echo=FALSE}
-path <- "C:\\Users\\user\\Documents\\R\\kaggle_M5_accuracy_data\\"
+path <- "~\\R\\kaggle_M5_accuracy_data\\"
 ```
 
 
